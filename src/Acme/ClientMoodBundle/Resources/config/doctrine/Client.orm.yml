@@ -1,0 +1,30 @@
+Acme\ClientMoodBundle\Entity\Client:
+    type: entity
+    table: null
+    repositoryClass: Acme\ClientMoodBundle\Entity\ClientRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: '255'
+        logo:
+            type: string
+            length: '255'
+        moodId:
+            type: integer
+            column: mood_id
+        projectManagerId:
+            type: integer
+            column: project_manager_id
+        created:
+            type: datetime
+        updated:
+            type: datetime
+        active:
+            type: integer
+    lifecycleCallbacks: {  }

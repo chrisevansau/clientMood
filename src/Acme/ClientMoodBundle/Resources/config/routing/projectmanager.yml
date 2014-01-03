@@ -1,0 +1,30 @@
+projectmanager:
+    pattern:  /
+    defaults: { _controller: "AcmeClientMoodBundle:ProjectManager:index" }
+
+projectmanager_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "AcmeClientMoodBundle:ProjectManager:show" }
+
+projectmanager_new:
+    pattern:  /new
+    defaults: { _controller: "AcmeClientMoodBundle:ProjectManager:new" }
+
+projectmanager_create:
+    pattern:  /create
+    defaults: { _controller: "AcmeClientMoodBundle:ProjectManager:create" }
+    requirements: { _method: post }
+
+projectmanager_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "AcmeClientMoodBundle:ProjectManager:edit" }
+
+projectmanager_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "AcmeClientMoodBundle:ProjectManager:update" }
+    requirements: { _method: post|put }
+
+projectmanager_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "AcmeClientMoodBundle:ProjectManager:delete" }
+    requirements: { _method: post|delete }

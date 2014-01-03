@@ -1,0 +1,11 @@
+acme_client_mood_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: AcmeClientMoodBundle:Default:index }
+
+AcmeClientMoodBundle_client:
+        resource: "@AcmeClientMoodBundle/Resources/config/routing/client.yml"
+        prefix:   /client
+
+AcmeClientMoodBundle_projectmanager:
+       resource: "@AcmeClientMoodBundle/Resources/config/routing/projectmanager.yml"
+       prefix:   /projectmanager

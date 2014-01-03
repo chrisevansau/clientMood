@@ -1,0 +1,27 @@
+Acme\ClientMoodBundle\Entity\ProjectManager:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: 255
+            column: Name
+        image:
+            type: string
+            length: 255
+        email:
+            type: string
+            length: 255
+        created:
+            type: datetime
+        updated:
+            type: datetime
+        active:
+            type: integer
+    lifecycleCallbacks: {  }

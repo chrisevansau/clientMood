@@ -1,0 +1,5 @@
+_assetic:
+    resource: .
+    type: assetic
+_app:
+    resource: '/Users/chrisevans/Documents/GIT_REPO''s/ClientMood/app/config/routing_dev.yml'

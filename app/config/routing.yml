@@ -1,0 +1,9 @@
+acme_client_mood:
+    resource: "@AcmeClientMoodBundle/Resources/config/routing.yml"
+    prefix:   /
+
+
+
+hello:
+    path:     /hello/{name}
+    defaults: { _controller: AcmeHelloBundle:Hello:index }

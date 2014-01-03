@@ -1,0 +1,23 @@
+Acme\ClientMoodBundle\Entity\Mood:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: 255
+        image:
+            type: string
+            length: 255
+        created:
+            type: datetime
+        updated:
+            type: datetime
+        active:
+            type: integer
+    lifecycleCallbacks: {  }

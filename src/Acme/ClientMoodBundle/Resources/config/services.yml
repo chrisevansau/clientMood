@@ -1,0 +1,7 @@
+parameters:
+#    acme_client_mood.example.class: Acme\ClientMoodBundle\Example
+
+services:
+#    acme_client_mood.example:
+#        class: %acme_client_mood.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

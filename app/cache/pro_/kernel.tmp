@@ -1,0 +1,22 @@
+<?php
+
+namespace 
+{
+    class AppKerne_ extends AppKernel
+    {
+        public function getCacheDir()
+        {
+            return '/Users/chrisevans/Documents/GIT_REPO's/ClientMood/app/cache/pro_';
+        }
+
+        public function getName()
+        {
+            return 'ap_';
+        }
+
+        public function getRootDir()
+        {
+            return '/Users/chrisevans/Documents/GIT_REPO's/ClientMood/app';
+        }
+    }
+}
